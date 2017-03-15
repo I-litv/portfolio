@@ -2373,5 +2373,6 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($spy, data)
     })
   })
-
+$('body').scrollspy({ target: '#navbar-example' })
+  
 }(jQuery);
