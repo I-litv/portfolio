@@ -87,6 +87,8 @@ hr.star-primary:after {
 }
 
 .intro-divider {
+    margin-left: auto;
+    margin-right: auto;
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -143,7 +145,8 @@ hr.star-primary:after {
 }
 
 .section-heading-spacer {
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
@@ -203,3 +206,15 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+.clearfix{
+    text-align: center;
+}
+
+#profile-grid { overflow: auto; white-space: normal; }
+#profile-grid.profile { padding-bottom: 40px; }
+#profile-grid.panel { padding: 0 }
+#profile-grid.panel-body { padding: 15px }
+#profile-grid.profile-name { font-weight: bold; }
+#profile-grid.thumbnail {margin-bottom:6px;}
+#profile-grid.panel-thumbnail { overflow: hidden; }
+#profile-grid.img-rounded { border-radius: 4px 4px 0 0;}
