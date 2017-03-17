@@ -2373,8 +2373,11 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($spy, data)
     })
   })
-$('body').scrollspy({ target: '#navbar-example' })
   
+   //Scroll Spy to highlight nav
+$('body').scrollspy({ target: '#navbar-example' })
+   
+  //Portfolio section
 $('a.thumb').click(function(event){
       event.preventDefault();
       var content = $('.modal-body');
@@ -2384,5 +2387,10 @@ $('a.thumb').click(function(event){
         content.html($(this).html());
         $(".modal-profile").modal({show:true});
     });
+  
+  $( ".panel" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
   
 }(jQuery);
