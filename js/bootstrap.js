@@ -2389,8 +2389,8 @@ $('a.thumb').click(function(event){
     });
   
   $( ".panel" ).hover(function() {
-  $( this ).fadeOut( 100 );
-  $( this ).fadeIn( 500 );
+  $( this ).addClass( ".active" );
+  $( this ).removeClass( ".panel" );
 });
   
 }(jQuery);
