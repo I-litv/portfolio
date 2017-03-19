@@ -175,6 +175,12 @@ hr.star-primary:after {
     margin-top: 0;
 }
 
+.profile-btn{
+    background-color: grey;
+    border-color: dark grey;    
+}
+
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
