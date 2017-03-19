@@ -58,6 +58,8 @@ hr.star-primary:after {
 
 .topnav {
     font-size: 14px; 
+    background-color: black;
+    border-color: grey;
 }
 
 .lead {
@@ -82,7 +84,7 @@ hr.star-primary:after {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
     font-size: 5em;
 }
 
