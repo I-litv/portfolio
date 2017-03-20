@@ -33,7 +33,13 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
+<div class="fly-to-top back-to-top">
+	<i class="fa fa-angle-up fa-3"></i>
+	<span class="to-top-text">Наверх</span>
+</div>
+	<div class="fly-fade">
+	</div>
+	
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" id="navbar-example">
         <div class="container topnav">
@@ -459,6 +465,15 @@
 			function closeDialog() {
 				Avgrund.hide();
 			}
+	    
+	    
+	    // Back to Top Button
+    	var duration = 500;
+    	$('.back-to-top').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: 0}, duration);
+          return false;
+	});
 		</script>
 
     <div class="modal fade modal-profile-lg" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
