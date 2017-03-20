@@ -458,24 +458,7 @@
         </div>
     </footer>
 
-    <script>
-			function openDialog() {
-				Avgrund.show( "#default-popup" );
-			}
-			function closeDialog() {
-				Avgrund.hide();
-			}
-	    
-	    
-	    // Back to Top Button
-	    jQuery(document).ready(function($){
-    	var duration = 500;
-    	$('.back-to-top').click(function(event) {
-          event.preventDefault();
-          $('html, body').animate({scrollTop: 0}, duration);
-          return false;
-	})});
-		</script>
+    
 
     <div class="modal fade modal-profile-lg" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
@@ -556,8 +539,27 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
+		
 
 	<script type="text/javascript" src="js/avgrund.js"></script>
+		<script type="text/javascript">
+			function openDialog() {
+				Avgrund.show( "#default-popup" );
+			}
+			function closeDialog() {
+				Avgrund.hide();
+			}
+	    
+	    
+	    // Back to Top Button
+	    jQuery(document).ready(function($){
+    	var duration = 500;
+    	$('.back-to-top').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: 0}, duration);
+          return false;
+	})});
+		</script>
 </body>
 
 </html>
