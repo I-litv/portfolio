@@ -2380,7 +2380,7 @@ $('body').scrollspy({ target: '#navbar-example' })
   //Portfolio section
 $('a.thumb').click(function(event){
       event.preventDefault();
-      var content = $('.modal-body');
+      var content = $('.modal-body1');
       content.empty();
         var title = $(this).attr("title");
         $('.modal-title').html(title);        
