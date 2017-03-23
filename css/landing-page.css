@@ -180,7 +180,7 @@ hr.star-primary:after {
     border-color: dark grey;    
 }
 
-.fly-to-top {
+.scroll-to-top {
 	/*background: #333;*/
 	background: #e54824;
 	-webkit-border-radius: 5px;
@@ -196,16 +196,16 @@ hr.star-primary:after {
 	height: 50px;
 	}
 
-.fly-to-top:hover {
+.scroll-to-top:hover {
 	background: #555;
 	}
 
-.fly-to-top {
+.scroll-to-top {
 	-webkit-transform: translate3d(0,100px,0);
 	   -moz-transform: translate3d(0,100px,0);
 	    -ms-transform: translate3d(0,100px,0);
 	     -o-transform: translate3d(0,100px,0);
-		transform: translate3d(0,100px,0);
+		transform: translate3d(0,0,0);
 	}
 
 .to-top-trans {
@@ -224,7 +224,7 @@ hr.star-primary:after {
 		left: 12.1px;
 	}*/
 	
-.fly-to-top i {
+.scroll-to-top i {
 	font-size: 46px;
 	line-height: 100%;
 	position: absolute;
