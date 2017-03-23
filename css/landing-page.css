@@ -1,7 +1,7 @@
 /*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Landing Page 
+ * Copyright 2013-2016 
+ * Licensed under MIT 
  */
 body {
     position: relative;
@@ -181,8 +181,8 @@ hr.star-primary:after {
 }
 
 .scroll-to-top {
-	/*background: #333;*/
-	background: #e54824;
+	background: #333;
+	/*background: #e54824;*/
 	-webkit-border-radius: 5px;
 		border-radius: 5px;
 	cursor: pointer;
