@@ -556,11 +556,11 @@
 	    
 	    // Back to Top Button
 	  jQuery(document).ready(function($){
-    	$(".intro-header").scroll(function(){
+    	$(window).scroll(function(){
 		if ($(this).scrollTop() > 10) {
-			$('.scroll-To-Top').hide();
+			$('.scroll-to-top').fadeIn();
 		} else {
-			$('.scroll-to-top').show();
+			$('.scroll-to-top').fadeOut();
 		}
 	});
 	
