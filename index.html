@@ -552,7 +552,19 @@
 			function closeDialog() {
 				Avgrund.hide();
 			}
-	    
+	    window.onload = function() {
+2
+    var b = true, d = $(".scroll-to-top"),h = d.offset().top;
+3
+    $(window).scroll(function() {
+4
+        var a = h < $(window).scrollTop();
+5
+        a != b && ((b = a) ? d.addClass('.scroll-to-top'): d.removeClass('.scroll-to-top'))
+6
+    })
+7
+};
 	    
 	    // Back to Top Button
 	  jQuery(document).ready(function($){
