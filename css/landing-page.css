@@ -181,7 +181,7 @@ hr.star-primary:after {
 }
 
 .scroll-to-top {
-	background: #333;
+	background: grey;
 	/*background: #e54824;*/
 	-webkit-border-radius: 5px;
 		border-radius: 5px;
