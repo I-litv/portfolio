@@ -3,6 +3,12 @@
  * Copyright 2013-2016 
  * Licensed under MIT 
  */
+
+::-webkit-scrollbar
+	width: 0px;
+::-webkit-scrollbar-track-piece
+	background-color: transparent
+	-webkit-border-radius: 6px;
 body {
     position: relative;
 }
