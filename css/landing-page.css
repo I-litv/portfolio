@@ -311,5 +311,5 @@ p.copyright {
 .panel-thumbnail:hover img{
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
