@@ -2392,5 +2392,9 @@ $('a.thumb').click(function(event){
   $( this ).addClass( ".active" );
   $( this ).removeClass( ".panel" );
 });
-  
+  $('#mainNav').affix({
+  offset: {
+    top: 100
+  }
+})
 }(jQuery);
