@@ -2383,7 +2383,7 @@ $('a.thumb').click(function(event){
       var content = $('.modal-body1');
       content.empty();
         var title = $(this).attr("title");
-        $('.modal-title').html(title);        
+        $('.modal-title1').html(title);        
         content.html($(this).html());
         $(".modal-profile").modal({show:true});
     });
