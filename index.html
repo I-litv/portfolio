@@ -576,12 +576,15 @@
 	$('.scroll-to-top').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
-	})});
-	$("#avGround").ready(function() {
+	})
+	  $("#avGround").ready(function() {
   // do fading 3 times
   	for(i=0;i<20;i++) {
     	$(this).fadeTo('slow', 0.2).fadeTo('slow', 1.0);
   }
+	  
+	  });
+	
 });
 		</script>
 	<script>
