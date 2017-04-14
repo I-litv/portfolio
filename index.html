@@ -566,7 +566,7 @@
 	  jQuery(document).ready(function($){
     	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
-			$('.scroll-to-top').fadeIn();
+			$('.scroll-to-top').fadeTo();
 		} else {
 			$('.scroll-to-top').fadeOut();
 		}
@@ -577,7 +577,7 @@
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	})});
-	$("#avGround").ready(function() {
+	$("#avGround").onload(function() {
   // do fading 3 times
   for(i=0;i<3;i++) {
     $(this).fadeTo('slow', 0.5).fadeTo('slow', 1.0);
