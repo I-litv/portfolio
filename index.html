@@ -577,7 +577,12 @@
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	})});
-	$("#avGround").fadeOut(3000).fadeIn(3000);
+	$("#avGround").ready(function() {
+  // do fading 3 times
+  for(i=0;i<3;i++) {
+    $(this).fadeTo('slow', 0.5).fadeTo('slow', 1.0);
+  }
+});
 		</script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
