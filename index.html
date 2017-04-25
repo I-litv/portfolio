@@ -563,7 +563,7 @@
 	
 	    
 	    // Back to Top Button
-	  jQuery(document).ready(function($){
+	 jQuery(document).ready(function($){
     	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
 			$('.scroll-to-top').fadeIn();
@@ -571,23 +571,22 @@
 			$('.scroll-to-top').fadeOut();
 		}
 	});
+	});
 	
 	//Click event to scroll to top
 	$('.scroll-to-top').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
-	})
-	  
-	  
-	  });
-			jQuery(document).ready(function($){
-			$("#avGround").ready(function() {
+	});
+
+	jQuery(document).ready(function($){
+	$("#avGround").ready(function() {
   // do fading 3 times
   	for(i=0;i<20;i++) {
     	$(this).fadeTo('slow', 0.2).fadeTo('slow', 1.0);
   }
-	
-});
+	})
+});	
 		</script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
