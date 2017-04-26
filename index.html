@@ -589,6 +589,16 @@
 });	
 });
 		</script>
+	<script> 
+	setInterval(blink, 710);
+
+	function blink() {
+    var elm = $("#avGround");
+    var mycolor = elm.css('color');
+    mycolor == 'rgb(0, 0, 0)' ? mycolor='transparent' : mycolor='rgb(0, 0, 0)';
+    $("avGround").animate({color: mycolor},300);
+}
+	</script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
