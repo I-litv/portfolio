@@ -319,7 +319,7 @@ p.copyright {
   100% { background-color: #ff0; box-shadow: 0 0 3px #bcc0c4; }
 }
 #avGround{
-	    border-radius: none;
+	    border-radius: 0px;
 	animation: glowing 1500ms infinite; 
 }
 
