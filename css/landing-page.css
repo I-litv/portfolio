@@ -318,7 +318,7 @@ p.copyright {
   50% { background-color: #0094FF; box-shadow: 0 0 10px #7d8083; }
   100% { background-color: #004A7F; box-shadow: 0 0 3px #888c90; }
 }
-.btn-lg{
+#avGround{
 	animation: glowing 1500ms infinite; 
 }
 
