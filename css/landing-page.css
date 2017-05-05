@@ -82,13 +82,13 @@ hr.star-primary:after {
     background-size: cover;
 }
 
-.intro-message {
+.avgrund-contents .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
 }
 
-.intro-message > h1 {
+ .avgrund-contents .intro-message > h1 {
     margin: 0;
     text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
     font-size: 5em;
