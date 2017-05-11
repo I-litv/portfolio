@@ -314,9 +314,9 @@ p.copyright {
   transform: scale(1.05);
 }
 @keyframes glowing {
-  0% { background-color: #fff; box-shadow: 0 0 3px #bcc0c4; }
-  50% { background-color: #fff; box-shadow: 0 0 10px #4b4d4f; }
-  100% { background-color: #fff; box-shadow: 0 0 3px #bcc0c4; }
+  0% { background-color: #fff; box-shadow: 0 0 4px #e1e9f9; }
+  50% { background-color: #fff; box-shadow: 0 0 12px #cddefb; }
+  100% { background-color: #fff; box-shadow: 0 0 4px #e1e9f9; }
 }
 #avGround{
 	    border: none;
